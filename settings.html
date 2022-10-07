@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Configuración de perfil - Social Pets</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- Icons FontAwesome 4.7.0 -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"  type="text/css" />
+
+
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar_menuicon" id="navicon">
+            <i class="fa fa-navicon"></i>
+        </div>
+        <div class="navbar_logo">
+            <a title="Social Pet" href="index.html"><img src="images/logo.png" alt="" /></a>
+        </div>
+        <div class="navbar_page">
+            <span></span>
+        </div>
+        <div class="navbar_search">
+            <form method="" action="/">
+                <input type="text" placeholder="Buscar..." />
+                <button><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <div class="navbar_icons">
+            <ul>
+                <li id="friendsmodal"><i class="fa fa-user-o"></i><span id="notification">5</span></li>
+                <li id="messagesmodal"><i class="fa fa-comments-o"></i><span id="notification">2</span></li>
+                <a href="" style="color:white"><li><i class="fa fa-globe"></i></li></a>
+            </ul>
+        </div>
+        <div class="navbar_user" id="profilemodal" style="cursor:pointer">
+            <img src="images/user.jpg" alt="" />
+            <span id="navbar_user_top">Ema Ordóñez<br><p>Perfil</p></span><i class="fa fa-angle-down"></i>
+        </div>
+    </div>
+
+    <div class="all">
+
+        <div class="rowfixed"></div>
+        <div class="left_row">
+            <div class="left_row_profile">
+                <img id="portada" src="images/portada.png" />
+                <div class="left_row_profile">
+                    <img id="profile_pic" src="images/user.jpg" />
+                    <span><b class="SizeName">Ema Ordóñez</b><br><p>1,500 Amigos</p></span>
+                </div>
+            </div>
+            <div class="rowmenu">
+                <ul>
+                    <li><a href="index.html"><i class="fa fa-globe"></i>Inicio</a></li>
+                    <li><a href="profile.html"><i class="fa fa-user"></i>Perfil</a></li>
+                    <li><a href="friends.html"><i class="fa fa-users"></i>Amigos</a></li>
+                    <li><a href="photos.html"><i class="fa fa-image"></i>Fotos</a></li>
+                    <li><a href="about.html"><i class="fa fa-user-circle"></i>Sobre mí</a></li>
+                    <li><a href="settings.html" id="rowmenu-selected"><i class="fa fa-cog"></i>Configuración</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+        
+
+        <div class="right_row">
+
+            <div class="row border-radius">
+                <div class="settings shadow">
+                    <div class="settings_title">
+                        <h3>Configuraciones de la cuenta</h3>
+                    </div>
+                    <div class="settings_content">
+                        <ul>
+                            <li>
+                                <p><b>Sonido de Notificaciones</b><br>Se reproducirá un sonido cada vez que reciba una nueva notificación.</p>
+                                <label class="switch"><input type="checkbox" class="primary"><span class="slider round"></span></label>
+                            </li>
+                            <li>
+                                <p><b>Notificaciones por Email</b><br>Le enviaremos un correo electrónico a su cuenta cada vez que reciba una nueva notificación</p>
+                                <label class="switch"><input type="checkbox" class="primary" checked><span class="slider round"></span></label>
+                            </li>
+                            <li>
+                                <p><b>Cumpleaños de Amigos</b><br>Elija si desea recibir notificaciones sobre los cumpleaños de sus amigos</p>
+                                <label class="switch"><input type="checkbox" class="primary" checked><span class="slider round"></span></label>
+                            </li>
+                            <li>
+                                <p><b>Sonido de mensaje del chat</b><br>Se reproducirá un sonido cada vez que recibas un nuevo mensaje en una ventana de chat inactiva</p>
+                                <label class="switch"><input type="checkbox" class="primary"><span class="slider round"></span></label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="suggestions_row">
+            <div class="row shadow">
+                <div class="row_title">
+                    <span>Configuración de perfil</span>
+                </div>
+                <div class="menusetting_contain">
+                    <ul>
+                        <li>
+                            <a href="Personal-Information.html">Informacion personal</a>
+                        </li>
+                        <li>
+                            <a href="settings.html" id="settings-select">Configuraciones de la cuenta</a>
+                        </li>
+                        <li>
+                            <a href="Change-Password.html">Cambiar la contraseña</a>
+                        </li>
+                      
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="row shadow">
+                <div class="row_title">
+                    <span>Páginas favoritas</span>
+                    <a href="#">ver más...</a>
+                </div>
+                <div class="row_contain">
+                    <img src="images/group-1.png" alt="" />
+                    <span><a href=""><b>La casa amarilla</b></a><br></span>
+                </div>
+                <div class="row_contain">
+                    <img src="images/group-2.jpg" alt="" />
+                    <span><a href=""><b>Amigos de la tirra</b></a><br>Viajes</span>
+                </div>
+                <div class="row_contain">
+                    <img src="images/group-3.jpg" alt="" />
+                    <span><a href=""><b>Amigos Forever</b></a><br></span>
+                </div>
+                <div class="row_contain">
+                    <img src="images/group-4.jpg" alt="" />
+                    <span><a href=""><b>Sol y Playa</b></a><br>Viajes</span>
+                </div>
+                <div class="row_contain">
+                    <img src="images/group-5.jpg" alt="" />
+                    <span><a href=""><b>Lobo ártico</b></a><br>Amigos</span>
+                </div>
+                <div class="row_contain">
+                    <img src="images/group-6.jpg" alt="" />
+                    <span><a href=""><b>Descanso</b></a><br>Compañia</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+
+
+
+    <!-- Modal Messages -->
+    <div class="modal modal-comments">
+        <div class="modal-icon-select"><i class="fa fa-sort-asc" aria-hidden="true"></i></div>
+        <div class="modal-title">
+            <span>CHAT</span>
+             <a href=""><i class="fa fa-ellipsis-h"></i></a>
+        </div>
+        <div class="modal-content">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="images/user-7.jpg" alt="" />
+                        <span><b>Miriam Carreras</b><br>Hi James! It’s Diana, I just wanted to let you know that we have to reschedule...<p>4 horas atras</p></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/user-6.jpg" alt="" />
+                        <span><b>Juan Real</b><br>We’ll have to check that at the office and see if the client is on board with...<p>Ayer a las 9:56pm</p></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/user-3.jpg" alt="" />
+                        <span><b>Vanesa Díez</b><br>Great, I’ll see you tomorrow!.<p>4 horas atras</p></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Modal Friends -->
+    <div class="modal modal-friends">
+        <div class="modal-icon-select"><i class="fa fa-sort-asc" aria-hidden="true"></i></div>
+        <div class="modal-title">
+            <span>SOLICITUDES DE AMISTAD</span>
+             <a href="friends.html"><i class="fa fa-ellipsis-h"></i></a>
+        </div>
+        <div class="modal-content">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="images/user-2.jpg" alt="" />
+                        <span><b>Martin Solano</b><br>4 Amigos en común</span>
+                        <button class="modal-content-accept">Aceptar</button><button class="modal-content-decline">Rechazar</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/user-6.jpg" alt="" />
+                        <span><b>Juan Real</b><br>2 Amigos en común</span>
+                        <button class="modal-content-accept">Aceptar</button><button class="modal-content-decline">Rechazar</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/user-4.jpg" alt="" />
+                        <span><b>Guillermo Nieto</b><br>1 Amigo en común</span>
+                        <button class="modal-content-accept">Aceptar</button><button class="modal-content-decline">Rechazar</button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Modal Profile -->
+    <div class="modal modal-profile">
+        <div class="modal-icon-select"><i class="fa fa-sort-asc" aria-hidden="true"></i></div>
+        <div class="modal-title">
+            <span>CUENTA</span>
+             <a href="settings.html"><i class="fa fa-cogs"></i></a>
+        </div>
+        <div class="modal-content">
+            <ul>
+                <li>
+                    <a href="settings.html">
+                        <i class="fa fa-tasks" aria-hidden="true"></i>
+                        <span><b>Configuración de perfil</b><br></span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="login.html">
+                        <i class="fa fa-power-off" aria-hidden="true"></i>
+                        <span><b>Cerrar Sesión</b><br></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- NavMobile -->
+    <div class="mobilemenu">
+        
+        <div class="mobilemenu_profile">
+            <img id="mobilemenu_portada" src="images/portada2.png" />
+            <div class="mobilemenu_profile">
+                <img id="mobilemenu_profile_pic" src="images/user.jpg" /><br>
+                <span><b class="SizeName">Ema Ordóñez</b><br><p>1,500 Amigos</p></span>
+            </div>
+            <div class="mobilemenu_menu">
+                <ul>
+                    <li><a href="index.html"><i class="fa fa-globe"></i>Inicio</a></li>
+                    <li><a href="profile.html"><i class="fa fa-user"></i>Perfil</a></li>
+                    <li><a href="friends.html"><i class="fa fa-users"></i>Amigos</a></li>
+                    <li><a href="photos.html"><i class="fa fa-photo"></i>Fotos</a></li>
+                    <li><a href="about.html"><i class="fa fa-user-circle"></i>Sobre mí</a></li>
+                    <li><a href="settings.html" id="mobilemenu-selected"><i class="fa fa-cog"></i>Configuración</a></li>
+                    
+                </ul>
+                    <hr>
+                <ul>
+                    
+                    <li><a href="login.html">Cerrar sesión</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    // Modals
+    $(document).ready(function(){
+
+
+        $("#messagesmodal").hover(function(){
+            $(".modal-comments").toggle();
+        });
+        $(".modal-comments").hover(function(){
+            $(".modal-comments").toggle();
+        });
+
+
+
+        $("#friendsmodal").hover(function(){
+            $(".modal-friends").toggle();
+        });
+        $(".modal-friends").hover(function(){
+            $(".modal-friends").toggle();
+        });
+
+
+        $("#profilemodal").hover(function(){
+            $(".modal-profile").toggle();
+        });
+        $(".modal-profile").hover(function(){
+            $(".modal-profile").toggle();
+        });
+
+
+        $("#navicon").click(function(){
+            $(".mobilemenu").fadeIn();
+        });
+        $(".all").click(function(){
+            $(".mobilemenu").fadeOut();
+        });
+    });
+    </script>
+    <script>
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>
